@@ -1,6 +1,6 @@
 package latmod.minescape.enums;
 
-//TODO: All runes / required runecrafting level
+
 public enum Rune
 {
 	AIR("air", 1),
@@ -30,12 +30,12 @@ public enum Rune
 	public final String ID;
 	
 	/** Required level to craft rune */
-	public final int level;
+	public final int runecrafting_level;
 	
 	Rune(String s, int l)
 	{
 		ID = s;
-		level = l;
+		runecrafting_level = l;
 	}
 }
 
